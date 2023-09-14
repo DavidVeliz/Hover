@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica de hover</title>
+</head>
+<body>
+    <style>
+        body{background-color: green;}
+        p {
+            visibility: hidden;
+            list-style: none;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover p{
+            visibility: visible;
+            list-style: none;
+        }
+        #menu{margin: auto;}
+
+        #menu ul {
+            list-style: none;
+            margin: 17%;
+        }
+
+        #menu ul a {
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        #menu ul img {
+            height: 150px;
+            width: 150px;
+        }
+        img:hover{
+            transform: scale(1.2)
+            
+        }
+    
+    </style>
+    <div id="menu">
+        <ul class="nav">
+            <a href="">
+                <img src="https://www.esimagenes.com/pimagen/imagen-transparente-pikachu.png" alt="Pikachu">
+                <p>Pikachu</p>
+            </a>
+            <a href="">
+                <img src="C:\Users\David\Downloads\Pokemones\Squartl.png" alt="Squartl">
+                <p>Squartl</p>
+            </a>
+            <a href="">
+                <img src="C:\Users\David\Downloads\Pokemones\Charmander.png" alt="Charmander">
+                <p>Charmander</p>
+            </a>
+            <a href="">
+                <img src="C:\Users\David\Downloads\Pokemones\Bolbasour.png" alt="Bolbasour">
+                <p>Bolbasour</p>
+            </a>
+            
+            
+        </ul>
+</div>
+</body>
+</html>
